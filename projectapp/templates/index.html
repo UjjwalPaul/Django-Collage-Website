@@ -1,0 +1,256 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RKDF University | Home</title>
+
+    <!-- logo here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- css line here -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+    <!-- favicon link here -->
+    <link rel="shortcut icon" href="{% static 'images/favicon-32x32.png' %}" type="image/x-icon">
+   
+    <!-- javascript like here -->
+    <script src="{% static 'script.js' %}"></script>
+
+</head>
+<body>
+    
+    <!-- Navigition bar  -->
+    
+    <nav class="sticky-top">
+        <img src="{% static 'images/rkdflogo.jpg' %}">
+        <div class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Admission</a></li>
+                <li><a href="#">Examination</a></li>
+                <li><a href="#">contact us</a></li>
+                <li class="right-menu">
+                    <button class="menu-button"><i class="fa-solid fa-user"></i>
+                    <div class="dropdown-menu">
+                        <a href="/login">login</a><br><br><hr><br>
+                        <a href="/signup">New-User</a>  
+                    </div>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- home section here -->
+    
+    <section id="home">
+        <h2>Enhance Your Future With RKDF University</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quidem? Accusamus magnam corporis nulla, est reprehenderit beatae maiores nihil nisi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum harum optio consectetur consequuntur</p>
+        <div class="btn">
+            <a class="blue" href="#">Learn More</a>
+            <a class="yellow" href="#">Visit Courses</a>
+        </div>
+    </section><br><br>
+
+    <!-- facultity -->
+
+    <section id="features">
+        <h1>Awesome Facility</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum,</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>World Class Education</h3>
+                <p>Lorem ipsum dolor sit amet consectetur elit. Omnis, eveniet.</p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fa-solid fa-user-tie"></i>
+                <h3>Top Faculty</h3>
+                <p>Lorem ipsum dolor sit amet consectetur elit. Omnis, eveniet.</p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fa-solid fa-building"></i>
+                <h3>100% Placement</h3>
+                <p>Lorem ipsum dolor sit amet consectetur elit. Omnis, eveniet.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- placement company -->
+    
+    <section id="course">
+        <h1>Placement Company</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.   Dolorum,</p>
+        <div class="course-box">
+
+            <div class="courses">
+                <img src="{% static 'images/apple.webp' %}" alt="">
+                <div class="details">
+                    <span>Updated 02/06/2001</span>
+                    <h6>Apple</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4k+)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    10 lakh
+                </div>
+            </div>
+
+            <div class="courses">
+                <img src="{% static 'images/microsoft.jpg' %}" alt="">
+                <div class="details">
+                    <span>Updated 02/06/2001</span>
+                    <h6>Microsoft</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4k+)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    5 lakh
+                </div>
+            </div>
+
+            <div class="courses">
+                <img src="{% static 'images/amazon.jpg' %}" alt="">
+                <div class="details">
+                    <span>Updated 02/06/2001</span>
+                    <h6>Amazon</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4k+)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    3.5 lakh
+                </div>
+            </div>
+            
+            <div class="courses">
+                <img src="{% static 'images/tata.jpg' %}" alt="">
+                <div class="details">
+                    <span>Updated 02/06/2001</span>
+                    <h6>TCS</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4k+)</span>
+                    </div>
+                </div>
+                <div class="costs">
+                    4 lakh
+                </div>
+            </div>
+
+            <div class="courses">
+                <img src="{% static 'images/infosys.jpg' %}" alt="">
+                <div class="details">
+                    <span>Updated 02/06/2001</span>
+                    <h6>Infosys</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4k+)</span>
+                    </div>
+                </div>
+                <div class="costs">
+                    5 lakh
+                </div>
+            </div>
+
+            <div class="courses">
+                <img src="{% static 'images/wipro.jpg' %}" alt="">
+                <div class="details">
+                    <span>Updated 02/06/2001</span>
+                    <h6>Wipro</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4k+)</span>
+                    </div>
+                </div>
+                <div class="costs">
+                    4 lakh
+                </div>
+            </div>
+            
+        </div>
+    </section><br><br>
+
+    <!-- footer start here -->
+
+    <footer>
+        <div class="footer-col">
+            <h3>About us</h3>
+            <li>Top Faculty</li>
+            <li>Fees</li>
+            <li>Highest Package</li>
+            <li>Our Campus</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Contact us</h3>
+            <li>Top Faculty</li>
+            <li>Fees</li>
+            <li>Highest Package</li>
+            <li>Our Campus</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Others</h3>
+            <li>Legal</li>
+            <li>Privacy Policy</li>
+            <li>Term of use</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>News-Letter</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>Copyright Disclaimer under Section 107 @2022</p>
+            <div class="pro-links">
+                <li class="fab fa-facebook"></li>
+                <li class="fab fa-instagram"></li>
+                <li class="fab fa-linkedin-in"></li>
+            </div>
+        </div>
+    </footer>
+
+   
+</body>
+</html>

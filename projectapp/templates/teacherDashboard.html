@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher | Dashboard</title>
+</head>
+<body>
+    {% for i in rec %}
+    <table>
+        <tr>
+            <td> {{i.name}}   </td>
+        </tr>
+
+        <tr>
+            <td> {{i.mail}}   </td>
+        </tr>
+
+        <tr>
+            <td> {{i.mobile}}   </td>
+        </tr>
+
+        <tr>
+            <td> {{i.subject}}   </td>
+        </tr>
+
+        <tr>
+            <td> {{i.profilePic}}   </td>
+        </tr>
+        
+    </table>
+    {% endfor %}
+</body>
+</html>
